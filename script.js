@@ -9,15 +9,15 @@ window.addEventListener('load', () => {
 const messages = [
     {
         text: "KAK MAAFIN PLISS",
-        image: "https://ibb.co.com/LXmQh2JQ"
+        image: "https://iili.io/K2Zf0CB.md.jpg"
     },
     {
         text: "KLIK YANG KIRI DONGG",
-        image: "https://ibb.co.com/mCKWPKp3"
+        image: "https://iili.io/K2ZHgz7.md.jpg"
     },
     {
         text: "terakhir, kalo \"no\" yauda deh",
-        image: "https://ibb.co.com/8DmfG29N"
+        image: "https://iili.io/K2Z3eC7.md.jpg"
     }
 ];
 
@@ -122,7 +122,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 
 yesBtn.addEventListener('click', () => {
     title.innerHTML = "HORE!! KA BAIKAN YAK? BENERAN YAK? AKIAJSJAJHWJWJAJ";
-    document.querySelector('img').src = "https://tenor.com/iZoKQ2JaVdb.gif";
+    document.querySelector('img').src = "https://iili.io/K2ZuzDF.md.jpg";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
@@ -160,4 +160,5 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
 
