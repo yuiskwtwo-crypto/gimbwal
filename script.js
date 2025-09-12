@@ -16,7 +16,7 @@ const messages = [
         image: "https://iili.io/K2ZHgz7.md.jpg"
     },
     {
-        text: "terakhir, kalo \"no\" yauda deh",
+        text: "TINGGAL MENCET YES APA SUSAHNYA SIE",
         image: "https://iili.io/K2Z3eC7.md.jpg"
     }
 ];
@@ -134,7 +134,7 @@ noBtn.addEventListener('click', () => {
         title.innerHTML = messages[noCount - 1].text;
         document.querySelector('img').src = messages[noCount - 1].image;
     } else {
-        title.innerHTML = "KA GABOLEH ISENG";
+        title.innerHTML = "WOY GABOLEH ISENG!!";
         if (!noBtn.classList.contains('running')) {
             noBtn.classList.add('running');
         }
@@ -160,6 +160,7 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
 
 
 
